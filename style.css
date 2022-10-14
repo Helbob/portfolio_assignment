@@ -1,0 +1,48 @@
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  min-height: 80vh;
+}
+
+.image {
+  background-image: url("LOGOTEST.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  aspect-ratio: 1/1;
+  min-height: 29rem;
+  min-width: 29rem;
+}
+
+#intro {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  min-height: 60vh;
+}
+
+.graphics {
+  background-image: url("LOGOTEST.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  aspect-ratio: 1/1;
+  min-height: 29rem;
+  min-width: 29rem;
+  margin: 1%;
+}
+nav {
+  display: flex;
+}
+
+.logo {
+  background-image: url("LOGOTEST.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 5rem;
+  min-width: 5rem;
+  margin: 1%;
+}
