@@ -30,11 +30,19 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  min-height: 65vh;
+  min-height: 80vh;
 }
 .wrap {
-  width: 50%;
+  width: 80%;
   overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 h1,
@@ -44,8 +52,12 @@ p {
   font-family: var(--font-headings);
 }
 
+.green {
+  color: var(--color-accent1);
+}
+
 .image {
-  background-image: url("logo.svg");
+  background-image: url("website-page-web-svgrepo-com.svg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 20rem;
@@ -55,14 +67,19 @@ p {
 
 #intro {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 5%;
   min-height: 60vh;
   align-items: center;
+  min-width: 20rem;
+}
+
+#intro div {
+  max-width: 50%;
 }
 
 .graphics {
-  background-image: url("Artboard.png");
+  background-image: url("website-page-web-svgrepo-com.svg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 20rem;
@@ -78,6 +95,9 @@ p {
   align-items: center;
   justify-content: center;
   margin: 5%;
+  min-width: 20rem;
+  gap: 10rem;
+  overflow-wrap: break-word;
 }
 nav {
   display: flex;
@@ -88,12 +108,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-li {
-  min-width: 15rem;
-}
+
 nav li {
   display: inline-block;
-  margin: 0px 1rem;
+  margin: 0px 2.5rem;
 }
 
 .logo {
@@ -102,6 +120,10 @@ nav li {
   background-size: contain;
   min-height: 4rem;
   min-width: 4rem;
+}
+
+.test {
+  max-width: 70%;
 }
 
 a {
@@ -116,22 +138,23 @@ a:hover {
 
 button {
   background-color: var(--color-accent1);
+  font-family: var(--font-buttons);
   color: black;
   border: none;
   border-radius: 20px;
-  padding: 1%;
-  min-height: 2rem;
-  min-width: 5rem;
-  margin-top: 1%;
+  padding: 4.2%;
+  min-height: 2.5rem;
+  min-width: 5.5rem;
+  margin-top: 3%;
 }
 
 button:hover {
   background-color: #a7ff59;
   color: black;
   border-radius: 20px;
-  padding: 1%;
-  min-height: 2rem;
-  min-width: 5rem;
+  padding: 4.2%;
+  min-height: 2.5rem;
+  min-width: 5.5rem;
 }
 #end {
   display: flex;
