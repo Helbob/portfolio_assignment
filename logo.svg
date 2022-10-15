@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.07 64.18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #87be4a;
+      }
+
+      .cls-3 {
+        fill: #222629;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M14.25,0l11.19,20.67L36.74,0h14.26V63.91h-14.93V26.12h-.19l-10.05,18.27h-.67L15.12,26.12h-.19V63.91H0V0H14.25Z"/>
+    <path class="cls-1" d="M60.46,25.23c0-.12,0-.23,0-.35h-8.03V0h-15.69V63.91h15.69v-25.64h8.3c-.09-4.35-.22-8.69-.27-13.05Z"/>
+  </g>
+  <rect class="cls-2" x="36.07" y="27.81" width="42" height="13.93"/>
+  <rect class="cls-3" x="35.5" y="41.74" width="26.85" height="1.44"/>
+  <rect class="cls-3" x="52.46" y="24.53" width="9.9" height="1.91"/>
+  <rect class="cls-1" x="42.32" y="16.32" width="10.13" height="9.79"/>
+  <rect class="cls-2" x="38.12" y="24.23" width="64.18" height="15.72" transform="translate(38.12 102.3) rotate(-90)"/>
+  <rect class="cls-3" x="35.87" y="26.01" width="26.48" height="1.84"/>
+</svg>

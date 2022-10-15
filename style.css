@@ -1,21 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+:root {
+  --color-primary1: #222629;
+  --color-primary2: var(--color-primary1);
+  --color-secondary1: white;
+  --color-secondary2: var(--color-secondary1);
+  --color-accent1: #85c846;
+  --color-accent2: var(--color-accent1);
+  --font-headings: "Lato", sans-serif;
+  --font-buttons: "Francois One", sans-serif;
+
+  /* Notice you can do this: --color-accent2: var(--color-accent1);*/
+}
+
 img {
   width: 100%;
 }
 
+html {
+  background-color: var(--color-primary1);
+}
+
 header {
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  padding: 5%;
-  min-height: 80vh;
+  flex-wrap: wrap;
+  min-height: 65vh;
+}
+.wrap {
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+p {
+  color: var(--color-secondary1);
+  font-family: var(--font-headings);
 }
 
 .image {
-  background-image: url("LOGOTEST.svg");
+  background-image: url("logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  aspect-ratio: 1/1;
-  min-height: 29rem;
+  min-height: 20rem;
   min-width: 29rem;
+  margin: 1%;
 }
 
 #intro {
@@ -23,26 +58,117 @@ header {
   justify-content: space-around;
   padding: 5%;
   min-height: 60vh;
+  align-items: center;
 }
 
 .graphics {
-  background-image: url("LOGOTEST.svg");
+  background-image: url("Artboard.png");
   background-repeat: no-repeat;
   background-size: contain;
-  aspect-ratio: 1/1;
-  min-height: 29rem;
+  min-height: 20rem;
   min-width: 29rem;
   margin: 1%;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
 nav {
   display: flex;
+  font-family: var(--font-headings);
+  min-width: 100%;
+  min-height: 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  min-width: 15rem;
+}
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
 }
 
 .logo {
-  background-image: url("LOGOTEST.svg");
+  background-image: url("logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 5rem;
-  min-width: 5rem;
+  min-height: 4rem;
+  min-width: 4rem;
+}
+
+a {
   margin: 1%;
+  text-decoration: none;
+  color: var(--color-secondary1);
+}
+
+a:hover {
+  color: var(--color-accent1);
+}
+
+button {
+  background-color: var(--color-accent1);
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 1%;
+  min-height: 2rem;
+  min-width: 5rem;
+  margin-top: 1%;
+}
+
+button:hover {
+  background-color: #a7ff59;
+  color: black;
+  border-radius: 20px;
+  padding: 1%;
+  min-height: 2rem;
+  min-width: 5rem;
+}
+#end {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  min-height: 80vh;
+  align-items: center;
+}
+
+footer {
+  padding: 5%;
+  background-color: var(--color-primary1);
+  text-align: center;
+}
+
+footer p {
+  color: var(--color-accent1);
+}
+
+#project {
+}
+
+/* Mobile */
+@media (max-width: 750px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    min-height: 80vh;
+    flex-wrap: wrap;
+  }
+  .image {
+    background-image: url("Artboard.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 1/1;
+    min-height: 20rem;
+    min-width: 20rem;
+  }
 }
