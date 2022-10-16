@@ -7,4 +7,4 @@ import {
   inView,
 } from "https://cdn.skypack.dev/motion";
 scroll(animate(".progress", { scaleX: [0, 1] }));
-animate("body", { opacity: [0, 1] }, { duration: 1.5 });
+animate("body", { opacity: [0, 1] }, { duration: 2 });
