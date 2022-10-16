@@ -177,6 +177,7 @@ footer {
   display: flex;
   background-color: var(--color-primary1);
   justify-content: center;
+  margin-bottom: 2%;
 }
 
 footer p {
