@@ -164,6 +164,15 @@ button:hover {
   align-items: center;
 }
 
+.progress {
+  position: fixed;
+  z-index: 200;
+  transform-origin: left;
+  height: 5px;
+  width: 100vw;
+  background-color: var(--color-accent1);
+}
+
 footer {
   display: flex;
   background-color: var(--color-primary1);
