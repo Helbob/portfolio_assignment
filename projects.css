@@ -43,6 +43,15 @@ header h1 {
   padding-left: 5%;
 }
 
+.imagethree {
+  background-image: url("02.02.mockup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 23rem;
+  min-width: 30rem;
+  margin: 1%;
+  padding-left: 5%;
+}
 .wrapper {
   flex-direction: column;
   width: 45%;
@@ -102,6 +111,10 @@ video {
   margin: 0;
   font-weight: bold;
 }
+
+h2 {
+  font-size: 3.5rem;
+}
 @media (max-width: 750px) {
   header {
     display: flex;
@@ -136,6 +149,17 @@ video {
 
   .imagetwo {
     background-image: url("02.01.mockup.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 18rem;
+    min-width: 18rem;
+    margin: 1%;
+    padding-left: 5%;
+    margin-top: 10%;
+  }
+
+  .imagethree {
+    background-image: url("02.02.mockup.png");
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 18rem;
@@ -189,5 +213,9 @@ video {
     background-size: contain;
     min-height: 10rem;
     min-width: 10rem;
+  }
+
+  h2 {
+    font-size: 1.8;
   }
 }
