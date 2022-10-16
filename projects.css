@@ -1,0 +1,89 @@
+:root {
+  --color-primary1: #222629;
+  --color-primary2: var(--color-primary1);
+  --color-secondary1: white;
+  --color-secondary2: var(--color-secondary1);
+  --color-accent1: #85c846;
+  --color-accent2: var(--color-accent1);
+  --font-headings: "Lato", sans-serif;
+  --font-buttons: "Francois One", sans-serif;
+
+  /* Notice you can do this: --color-accent2: var(--color-accent1);*/
+}
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  margin: 2%;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+.image {
+  background-image: url("01.02.mockup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 23rem;
+  min-width: 30rem;
+  margin: 1%;
+  padding-left: 5%;
+}
+
+.wrapper {
+  flex-direction: column;
+  width: 45%;
+  overflow-wrap: break-word;
+  gap: 1rem;
+  padding-right: 0%;
+}
+
+video {
+  width: 50%;
+  aspect-ratio: 16/9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.visuals {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 5%;
+  min-height: 60vh;
+  align-items: center;
+  min-width: 20rem;
+  flex-wrap: wrap;
+}
+
+.visuals div {
+  max-width: 35%;
+}
+
+.left {
+  order: 2;
+}
+
+.motivation {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding: 8%;
+  min-height: 20vh;
+  min-width: 20rem;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+.motivation div {
+  max-width: 60%;
+}
+
+.back {
+  background-image: url("logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 20rem;
+  min-width: 20rem;
+}
