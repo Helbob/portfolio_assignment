@@ -33,6 +33,16 @@ header h1 {
   padding-left: 5%;
 }
 
+.imagetwo {
+  background-image: url("02.01.mockup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 23rem;
+  min-width: 30rem;
+  margin: 1%;
+  padding-left: 5%;
+}
+
 .wrapper {
   flex-direction: column;
   width: 45%;
@@ -87,6 +97,11 @@ video {
   min-height: 20rem;
   min-width: 20rem;
 }
+
+.motivation a {
+  margin: 0;
+  font-weight: bold;
+}
 @media (max-width: 750px) {
   header {
     display: flex;
@@ -119,6 +134,16 @@ video {
     margin-top: 10%;
   }
 
+  .imagetwo {
+    background-image: url("02.01.mockup.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 18rem;
+    min-width: 18rem;
+    margin: 1%;
+    padding-left: 5%;
+    margin-top: 10%;
+  }
   video {
     width: 90%;
     aspect-ratio: 16/9;
